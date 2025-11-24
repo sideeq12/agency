@@ -108,11 +108,14 @@ const Contact = () => {
 
                             <button
                                 type="submit"
-                                className="w-full bg-accent text-primary font-bold py-4 rounded-lg hover:bg-accent-hover transition-colors flex items-center justify-center gap-2"
+                                className="w-full bg-accent text-primary font-bold py-4 rounded-lg hover:bg-accent-hover transition-colors flex items-center justify-center gap-2 group"
                             >
-                                Send Message
-                                <Send className="w-5 h-5" />
+                                Launch Your Project
+                                <Send className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                             </button>
+                            <p className="text-center text-text-dim text-sm mt-4">
+                                Response within 24 hours. 100% Privacy Guaranteed.
+                            </p>
                         </form>
                     </motion.div>
                 </div>
